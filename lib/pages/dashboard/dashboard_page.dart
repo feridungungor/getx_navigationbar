@@ -7,6 +7,7 @@ import 'package:getx_navigationbar/pages/alerts/alerts_page.dart';
 import 'package:getx_navigationbar/pages/dashboard/dashboard_controller.dart';
 import 'package:getx_navigationbar/pages/home/home_page.dart';
 import 'package:getx_navigationbar/pages/news/news_page.dart';
+import 'package:getx_navigationbar/pages/posts/posts_page.dart';
 
 class DashboardPage extends StatelessWidget {
   @override
@@ -18,7 +19,8 @@ class DashboardPage extends StatelessWidget {
               index: controller.tabIndex,
               children: [
                 HomePage(),
-                NewsPage(),
+                // NewsPage(),
+                PostsPage(),
                 AlertsPage(),
                 AccountPage(),
               ],
